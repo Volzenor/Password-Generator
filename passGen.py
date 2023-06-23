@@ -21,7 +21,7 @@ if len(keyword) > length:
 #If the keywords the same length as the user inputed length sets it as password
 elif len(keyword) == length:
     password = keyword
-
+    
 else:
     #Creates a string with the needed length
     length -= len(keyword)
